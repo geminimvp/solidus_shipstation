@@ -1,5 +1,3 @@
-require_dependency 'spree/basic_ssl_authentication'
-
 module Spree
 
   class ShipstationController < Spree::BaseController
