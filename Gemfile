@@ -15,7 +15,7 @@ else
   gem "rails_test_params_backport", group: :test
 end
 
-gem 'pg'
-gem 'mysql2'
+gem 'pg', '~> 0.21'
+gem 'mysql2', '~> 0.4.10'
 
 gemspec
